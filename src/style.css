@@ -1,0 +1,136 @@
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+textarea {
+  border-radius: 2px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 200px;
+  min-height: 100px;
+  resize: vertical;
+  width: 100%;
+}
+
+
+table {
+  border: none;
+  border-collapse: collapse;
+  margin: 8px 0;
+  width: 100%;
+}
+
+tr:hover td {
+  background-color: #f8f8f8;
+}
+
+th {
+  border: 1px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  border-top: none;
+}
+
+td {
+  border: 1px solid lightgrey;
+  padding: 2px 4px;
+}
+
+th:first-child,
+td:first-child {
+  border-left: none;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child {
+  margin-top: 0;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child {
+  margin-bottom: 0;
+}
+
+
+.nice-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nice-nav ul li {
+  padding: 0 4px;
+  display: inline-block;
+}
+
+
+.nice-frame {
+  background-color: #fff;
+  border-radius: 0;
+  border: 1px solid lightgray;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+.nice-frame:first-child {
+  margin-top: 0;
+}
+
+.nice-frame:last-child {
+  margin-bottom: 0;
+}
+
+
+.frame {
+  display: block;
+  margin: 8px 0;
+}
+
+.frame:first-child {
+  margin-top: 0;
+}
+
+.frame:last-child {
+  margin-bottom: 0;
+}
+
+
+.btn-flat {
+  padding: 0;
+}
+
+
+.ellipsis {
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.invisible-link {
+  color: #000;
+  text-decoration: none;
+}

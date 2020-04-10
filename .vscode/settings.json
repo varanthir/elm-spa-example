@@ -1,0 +1,7 @@
+{
+  "[elm]": {
+      "editor.formatOnSave": true,
+      "editor.tabSize": 4
+  },
+  "elmLS.elmFormatPath": "./node_modules/.bin/elm-format",
+}
